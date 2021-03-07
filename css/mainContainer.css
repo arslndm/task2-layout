@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainContainer {
+  background-color: #662a24;
+  border: 5px solid yellow;
+  overflow: hidden;
+}
+.navBar {
+  background-color: #420d0b;
+}
+div.navBar ul {
+  overflow: hidden;
+  margin-left: 750px;
+}
+
+div.navBar li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  padding: 0px 10px;
+}
+div.navBar li:hover {
+  background-color: #6e2a24;
+}
+
+div.navBar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 13px;
+}
+
+@media screen and (max-width: 600px) {
+  div.navBar li {
+    float: none;
+  }
+}
+
+.navbar {
+  background-color: burlywood;
+}
+
+.navBar {
+  border: 5px solid gray;
+}
+.logoContainer {
+  border: 5px solid green;
+  padding: 30px 0px;
+  text-align: center;
+  clear: right;
+}
+.leftRightParent {
+  border: 5px solid tomato;
+  overflow: hidden;
+}
+.companyInfo {
+  border: 5px solid gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  border: 5px solid pink;
+  text-align: center;
+  padding: 40px;
+}

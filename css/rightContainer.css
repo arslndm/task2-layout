@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.rightContainer {
+  border: 5px solid blue;
+  float: right;
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .rightContainer {
+    float: none;
+    width: 100%;
+  }
+}
+.projectsContainer {
+  border: 5px solid lightgreen;
+  text-align: center;
+  padding: 51px 0px;
+}
+.partnersContainer {
+  border: 5px solid yellow;
+  text-align: center;
+  padding: 51px 0px;
+}
+.locationContainer {
+  border: 5px solid lightgoldenrodyellow;
+  text-align: center;
+  padding: 51px 0px;
+}
